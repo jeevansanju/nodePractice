@@ -9,7 +9,8 @@ var db = monk("localhost:27017/wizzard")
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var removeRouter = require('./routes/remove')
+var removeRouter = require('./routes/remove');
+var user = require("./model/user")
 
 var app = express();
 
