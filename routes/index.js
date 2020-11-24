@@ -9,6 +9,7 @@ router.get("/get",function(req,res){
   });
   });
 
+
 router.post("/insert",function(req,res){
   var db = req.db;
   var collection = db.get("site");
